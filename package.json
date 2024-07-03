@@ -1,0 +1,22 @@
+{
+  "name": "testtata",
+  "version": "1.0.0",
+  "description": "Test_Tata",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "report": "cypress run && node cypress/settings/reportConfig.js"
+  },
+  "author": "JRafaCand",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.0",
+    "cypress": "^13.13.0",
+    "cypress-webpack-preprocessor-v5": "^5.0.0-alpha.1",
+    "multiple-cucumber-html-reporter": "^3.6.2",
+    "node-polyfill-webpack-plugin": "^4.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^10.0.2"
+  }
+}
